@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	background-color: #f4d0bc;
+}
+.head{
+	background-image: url("golden temple.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 150px 0 20px 0;
+	font-family: 'MedievalSharp', cursive;
+	text-shadow: 0 0 5px #f4d0bc ;
+	font-size: 20px;
+	color:white;
+	text-align: center;
+}
+.visit{
+	display:flex;
+	justify-content: space-around;
+	background-color: #f4d0bc;
+	padding-top: 10px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow: 0 0 5px #43291a;
+
+}
+.img-visit{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+.img-visit:hover{
+	border: 5px solid #e28f62;
+}
+.about{
+	background-color: #e28f62;
+	display:flex;
+	padding:20px 0;
+}
+.tour{
+	width: 300px;
+}
+.tour:hover{
+	border: 5px solid #f4d0bc;
+}
+.info{
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 0 5px #f4d0bc;
+}
+.tail{
+	font-size: 20px;
+	text-align: center;
+	color:#e28f62;
+	padding-top:30px;
+}
+a{
+	color: #e28f62;
+}
+.card{
+	text-align: center;
+	margin: 10px auto;
+	width: 500px;
+	height: 250px;
+	border: 15px solid #d7a997;
+    padding: 50px;
+	background-color: white;
+	color: #e28f62;
+}
+.card:hover{
+	border: 20px solid #ea8b66;
+}
+
