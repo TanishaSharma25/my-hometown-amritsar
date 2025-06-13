@@ -1,71 +1,109 @@
-body{
-	margin: 0;
-	background-color: #f4d0bc;
+body {
+  margin: 0;
+  background-color: #fbeee6;
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
-.head{
-	background-image: url("golden temple.jpg");
-	background-position: center;
-	background-size: cover;
-	padding: 150px 0 20px 0;
-	font-family: 'MedievalSharp', cursive;
-	text-shadow: 0 0 5px #f4d0bc ;
-	font-size: 20px;
-	color:white;
-	text-align: center;
-}
-.visit{
-	display:flex;
-	justify-content: space-around;
-	background-color: #f4d0bc;
-	padding-top: 10px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	text-shadow: 0 0 5px #43291a;
 
+.head {
+  background-image: url("golden temple.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 20vh 0 2vh;
+  font-family: "MedievalSharp", cursive;
+  text-shadow: 0 0 5px #fbeee6;
+  font-size: 2rem;
+  color: #fffdfc;
+  text-align: center;
 }
-.img-visit{
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+
+.visit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fbeee6;
+  padding: 20px;
+  text-shadow: 0 0 5px #6a4e42;
 }
-.img-visit:hover{
-	border: 5px solid #e28f62;
+
+.img-visit {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transition: border 0.3s ease;
 }
-.about{
-	background-color: #e28f62;
-	display:flex;
-	padding:20px 0;
+.img-visit:hover {
+  border: 5px solid #f4a261;
 }
-.tour{
-	width: 300px;
+
+.about {
+  background-color: #f4a261;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 20px;
 }
-.tour:hover{
-	border: 5px solid #f4d0bc;
+
+.tour {
+  max-width: 300px;
+  width: 100%;
+  transition: border 0.3s ease;
 }
-.info{
-	font-size: 20px;
-	color: white;
-	text-shadow: 0 0 5px #f4d0bc;
+.tour:hover {
+  border: 5px solid #fbeee6;
 }
-.tail{
-	font-size: 20px;
-	text-align: center;
-	color:#e28f62;
-	padding-top:30px;
+
+.info {
+  font-size: 1.1rem;
+  color: #fffdfc;
+  text-shadow: 0 0 5px #fbeee6;
+  text-align: justify;
 }
-a{
-	color: #e28f62;
+
+.tail {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #f4a261;
+  padding: 30px 10px;
 }
-.card{
-	text-align: center;
-	margin: 10px auto;
-	width: 500px;
-	height: 250px;
-	border: 15px solid #d7a997;
-    padding: 50px;
-	background-color: white;
-	color: #e28f62;
+
+a {
+  color: #264653;
+  text-decoration: none;
 }
-.card:hover{
-	border: 20px solid #ea8b66;
+
+.card {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 90%;
+  width: 500px;
+  padding: 40px 20px;
+  border: 10px solid #e9c46a;
+  background-color: #fffdfc;
+  color: #f4a261;
+  transition: border 0.3s ease;
+}
+.card:hover {
+  border: 15px solid #f4a261;
+}
+
+/* ✅ Responsive tweaks */
+@media (max-width: 600px) {
+  .head {
+    font-size: 1.5rem;
+    padding: 15vh 0 2vh;
+  }
+
+  .img-visit {
+    width: 120px;
+    height: 120px;
+  }
+
+  .info,
+  .tail {
+    font-size: 1rem;
+  }
 }
 
